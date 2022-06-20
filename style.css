@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+img{
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#caixa-numeros{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    background: white;
+    border-radius: 6px;
+    /*text-align: center;*/
+
+}
+
+.numbers{
+text-align: center;
+font-weight: 500;
+font-size: 50px;
+}
+
+#caixa-botoes{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.botoes{
+    color: black;
+    background: #C5FB01;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 8px;
+    font-size: 20px;
+    /*text-shadow: 1px 1px 0px #1C1C1C; para colocar sombra no texto */
+}
+
+.ativo{
+    opacity: 0.5;
+}
